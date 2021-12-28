@@ -7,6 +7,8 @@ class ev02 {
     rows.forEach((row, index) => {
       const rowDiv = document.createElement("div");
       rowDiv.classList.add("hello");
+      rowDiv.innerHTML = row.number;
+
       this.parentDiv.appendChild(rowDiv);
     });
   }

@@ -1,6 +1,6 @@
 let inputData = [
   {
-    number: 0,
+    number: 01,
     workingTitle: "zest",
     demo: 0,
     guitar: 0,
@@ -13,7 +13,7 @@ let inputData = [
     done: 0,
   },
   {
-    number: 0,
+    number: 02,
     workingTitle: "zest",
     demo: 0,
     guitar: 0,
@@ -26,7 +26,7 @@ let inputData = [
     done: 0,
   },
   {
-    number: 0,
+    number: 03,
     workingTitle: "zest",
     demo: 0,
     guitar: 0,
@@ -39,7 +39,7 @@ let inputData = [
     done: 0,
   },
   {
-    number: 0,
+    number: 04,
     workingTitle: "zest",
     demo: 0,
     guitar: 0,
@@ -52,7 +52,7 @@ let inputData = [
     done: 0,
   },
   {
-    number: 0,
+    number: 05,
     workingTitle: "zest",
     demo: 0,
     guitar: 0,
@@ -65,7 +65,7 @@ let inputData = [
     done: 0,
   },
   {
-    number: 0,
+    number: 06,
     workingTitle: "zest",
     demo: 0,
     guitar: 0,
@@ -78,7 +78,7 @@ let inputData = [
     done: 0,
   },
   {
-    number: 0,
+    number: 07,
     workingTitle: "zest",
     demo: 0,
     guitar: 0,
@@ -91,7 +91,7 @@ let inputData = [
     done: 0,
   },
   {
-    number: 0,
+    number: 08,
     workingTitle: "zest",
     demo: 0,
     guitar: 0,
@@ -104,7 +104,7 @@ let inputData = [
     done: 0,
   },
   {
-    number: 0,
+    number: 09,
     workingTitle: "zest",
     demo: 0,
     guitar: 0,
@@ -117,7 +117,7 @@ let inputData = [
     done: 0,
   },
   {
-    number: 0,
+    number: 10,
     workingTitle: "zest",
     demo: 0,
     guitar: 0,
