@@ -1,3 +1,5 @@
+/* BOXES / ROWS */
+
 .row {
   height: 100px;
   width: 100%;
@@ -19,6 +21,8 @@
   margin-right: 0.75rem;
   background-color: silver;
 }
+
+/* STATUS */
 
 .null {
   background-color: #060606;

@@ -35,6 +35,9 @@ class ev02 {
               .map((s) => s.toLowerCase())
               .join("-");
             boxDiv.setAttribute(`data-${attributeName}`, box[boxAttribute]);
+            if (box[boxAttribute] === "0") {
+              boxDiv.classList.add("pre");
+            }
           }
         });
 
@@ -55,7 +58,6 @@ class ev02 {
         }
 
         rowDiv.appendChild(boxDiv);
-        console.log(boxDiv);
       });
 
       this.parentDiv.appendChild(rowDiv);
