@@ -11,7 +11,8 @@ class ev02 {
       row.forEach((box) => {
         const boxDiv = document.createElement("div");
 
-        const optionalAttributes = [
+        const boxAttributes = [
+          "number",
           "workingTitle",
           "demo",
           "guitar",
@@ -24,19 +25,20 @@ class ev02 {
           "done",
         ];
 
-        optionalAttributes.forEach((optionalAttribute) => {
-          if (box[optionalAttribute]) {
-            const attributeName = optionalAttribute
+        boxAttributes.forEach((boxAttribute) => {
+          if (box[boxAttribute]) {
+            const attributeName = boxAttribute
               .match(/\w?[^A-Z]*/g)
               .slice(0, -1)
               .map((s) => s.toLowerCase())
               .join("-");
-            boxDiv.setAttribute(`data-${attributeName}`, box.number);
+            boxDiv.setAttribute(`data-${attributeName}`, box[boxAttribute]);
           }
         });
 
-        boxDiv.classList.add("box");
         console.log(boxDiv);
+
+        boxDiv.classList.add("box");
 
         const boxSpan = document.createElement("span");
 
