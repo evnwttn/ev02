@@ -4,10 +4,14 @@ class ev02 {
   constructor(rows) {
     this.parentDiv = document.createElement("div");
 
-    rows.forEach((row, index) => {
+    rows.forEach((row) => {
       const rowDiv = document.createElement("div");
       rowDiv.classList.add("hello");
       rowDiv.innerHTML = row.number;
+
+      row.forEach((box) => {
+        console.log(box);
+      });
 
       this.parentDiv.appendChild(rowDiv);
     });
