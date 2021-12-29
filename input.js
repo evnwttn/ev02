@@ -1,5 +1,18 @@
 let inputData = [
   [
+    { title: "number" },
+    { title: "working title" },
+    { title: "demo" },
+    { title: "guitar" },
+    { title: "bass" },
+    { title: "drums" },
+    { title: "synths" },
+    { title: "fx" },
+    { title: "mix" },
+    { title: "master" },
+    { title: "done" },
+  ],
+  [
     { number: "01" },
     { workingTitle: "zest" },
     { demo: "0" },

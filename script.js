@@ -13,6 +13,7 @@ class ev02 {
         boxDiv.classList.add("box");
 
         const boxAttributes = [
+          "title",
           "number",
           "workingTitle",
           "demo",
@@ -38,9 +39,17 @@ class ev02 {
         });
 
         const boxSpan = document.createElement("span");
-        if (box.number) {
-          const textDiv = document.createElement("div");
+        const textDiv = document.createElement("div");
+        if (box.title) {
+          const boxText = box.title;
+          boxDiv.appendChild(textDiv);
+          textDiv.innerHTML = `${boxText}`;
+        } else if (box.number) {
           const boxText = box.number;
+          boxDiv.appendChild(textDiv);
+          textDiv.innerHTML = `${boxText}`;
+        } else if (box.workingTitle) {
+          const boxText = box.workingTitle;
           boxDiv.appendChild(textDiv);
           textDiv.innerHTML = `${boxText}`;
         }
