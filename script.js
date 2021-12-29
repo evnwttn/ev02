@@ -36,7 +36,13 @@ class ev02 {
               .join("-");
             boxDiv.setAttribute(`data-${attributeName}`, box[boxAttribute]);
             if (box[boxAttribute] === "0") {
+              boxDiv.classList.add("null");
+            } else if (box[boxAttribute] === "1") {
               boxDiv.classList.add("pre");
+            } else if (box[boxAttribute] === "2") {
+              boxDiv.classList.add("in-progress");
+            } else if (box[boxAttribute] === "3") {
+              boxDiv.classList.add("complete");
             }
           }
         });
