@@ -2,7 +2,7 @@
   height: 100px;
   width: 100%;
   margin-top: 10px;
-  background-color: orange;
+  background-color: #060606;
 }
 
 .box {
@@ -14,6 +14,8 @@
   align-items: center;
   height: 75%;
   width: 5rem;
-  margin-top: 5px;
-  background-color: burlywood;
+  margin-top: 0.75rem;
+  margin-left: 0.75rem;
+  margin-right: 0.75rem;
+  background-color: silver;
 }
