@@ -1,13 +1,19 @@
-.hello {
+.row {
   height: 100px;
-  width: 100px;
+  width: 100%;
   margin-top: 10px;
   background-color: orange;
 }
 
-.sub-hello {
-  height: 50px;
-  height: 50px;
+.box {
+  display: inline-flex;
+  float: right;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-content: center;
+  align-items: center;
+  height: 75%;
+  width: 5rem;
   margin-top: 5px;
   background-color: burlywood;
 }

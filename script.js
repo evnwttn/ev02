@@ -6,11 +6,13 @@ class ev02 {
 
     rows.forEach((row) => {
       const rowDiv = document.createElement("div");
-      rowDiv.classList.add("hello");
-      rowDiv.innerHTML = row.number;
+      rowDiv.classList.add("row");
 
       row.forEach((box) => {
-        console.log(box);
+        const boxDiv = document.createElement("div");
+        boxDiv.classList.add("box");
+        boxDiv.innerHTML = "I'm";
+        rowDiv.appendChild(boxDiv);
       });
 
       this.parentDiv.appendChild(rowDiv);
