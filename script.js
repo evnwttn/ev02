@@ -10,6 +10,7 @@ class ev02 {
 
       row.forEach((box) => {
         const boxDiv = document.createElement("div");
+        boxDiv.classList.add("box");
 
         const boxAttributes = [
           "number",
@@ -36,13 +37,16 @@ class ev02 {
           }
         });
 
-        console.log(boxDiv);
-
-        boxDiv.classList.add("box");
-
         const boxSpan = document.createElement("span");
+        if (box.number) {
+          const textDiv = document.createElement("div");
+          const boxText = box.number;
+          boxDiv.appendChild(textDiv);
+          textDiv.innerHTML = `${boxText}`;
+        }
 
         rowDiv.appendChild(boxDiv);
+        console.log(boxDiv);
       });
 
       this.parentDiv.appendChild(rowDiv);

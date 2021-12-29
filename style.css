@@ -7,7 +7,7 @@
 
 .box {
   display: inline-flex;
-  float: right;
+  float: left;
   flex-direction: row;
   flex-wrap: nowrap;
   align-content: center;
@@ -18,4 +18,20 @@
   margin-left: 0.75rem;
   margin-right: 0.75rem;
   background-color: silver;
+}
+
+.null {
+  background-color: #060606;
+}
+
+.pre {
+  background-color: silver;
+}
+
+.in-progress {
+  background-color: red;
+}
+
+.complete {
+  background-color: green;
 }
