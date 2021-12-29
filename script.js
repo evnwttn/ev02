@@ -10,18 +10,33 @@ class ev02 {
 
       row.forEach((box) => {
         const boxDiv = document.createElement("div");
-        boxDiv.setAttribute("data-number", box.number);
-        boxDiv.setAttribute("data-working-title", box.workingTitle);
-        boxDiv.setAttribute("data-demo", box.demo);
-        boxDiv.setAttribute("data-guitar", box.guitar);
-        boxDiv.setAttribute("data-bass", box.bass);
-        boxDiv.setAttribute("data-drums", box.drums);
-        boxDiv.setAttribute("data-synths", box.synths);
-        boxDiv.setAttribute("data-fx", box.fx);
-        boxDiv.setAttribute("data-mix", box.mix);
-        boxDiv.setAttribute("data-master", box.master);
-        boxDiv.setAttribute("data-done", box.done);
+
+        const optionalAttributes = [
+          "workingTitle",
+          "demo",
+          "guitar",
+          "bass",
+          "drums",
+          "synths",
+          "fx",
+          "mix",
+          "master",
+          "done",
+        ];
+
+        optionalAttributes.forEach((optionalAttribute) => {
+          if (box[optionalAttribute]) {
+            const attributeName = optionalAttribute
+              .match(/\w?[^A-Z]*/g)
+              .slice(0, -1)
+              .map((s) => s.toLowerCase())
+              .join("-");
+            boxDiv.setAttribute(`data-${attributeName}`, box.number);
+          }
+        });
+
         boxDiv.classList.add("box");
+        console.log(boxDiv);
 
         const boxSpan = document.createElement("span");
 
