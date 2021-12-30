@@ -3,7 +3,7 @@
 .row {
   height: 100px;
   width: 100%;
-  margin-top: 10px;
+  margin-top: 0.75%;
   background-color: #060606;
 }
 
@@ -15,10 +15,10 @@
   align-content: center;
   align-items: center;
   height: 75%;
-  width: 5rem;
-  margin-top: 0.75rem;
-  margin-left: 0.75rem;
-  margin-right: 0.75rem;
+  width: 7.36%;
+  margin-top: 0.89%;
+  margin-left: 0.94%;
+  margin-right: 0.75%;
   background-color: silver;
 }
 
