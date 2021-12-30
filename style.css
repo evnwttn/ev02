@@ -1,10 +1,18 @@
 /* BOXES / ROWS */
 
+/* body {
+  background-color: #060606;
+} */
+
 #container {
   max-width: 900px;
   min-width: 900px;
   min-height: 600px;
   max-height: 600px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .row {
@@ -12,6 +20,7 @@
   width: 100%;
   margin-top: 0.75%;
   background-color: #060606;
+  transform: skew(-6deg);
 }
 
 .box {
