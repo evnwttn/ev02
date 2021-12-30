@@ -1,8 +1,11 @@
 /* BOXES / ROWS */
 
-/* body {
-  background-color: #060606;
-} */
+body {
+  font-family: "Yantramanav", sans-serif;
+  font-weight: 900;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+}
 
 #container {
   max-width: 900px;
@@ -21,6 +24,10 @@
   margin-top: 0.75%;
   background-color: #060606;
   transform: skew(-6deg);
+}
+
+.top {
+  height: 2rem;
 }
 
 .box {

@@ -51,6 +51,7 @@ class ev02 {
         const textDiv = document.createElement("div");
         if (box.title) {
           const boxText = box.title;
+          boxDiv.classList.add("top");
           boxDiv.appendChild(textDiv);
           textDiv.innerHTML = `${boxText}`;
         } else if (box.number) {
