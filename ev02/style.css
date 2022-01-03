@@ -27,7 +27,7 @@ body {
 }
 
 .top {
-  height: 2rem;
+  height: 50%;
 }
 
 .box {
@@ -37,8 +37,8 @@ body {
   flex-wrap: nowrap;
   align-content: center;
   align-items: center;
-  height: 75%;
   width: 7.36%;
+  height: 75%;
   margin-top: 0.89%;
   margin-left: 0.94%;
   margin-right: 0.75%;
