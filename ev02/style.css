@@ -5,6 +5,7 @@ body {
   font-weight: 900;
   font-size: 0.8rem;
   text-transform: uppercase;
+  /* background-color: #060606; */
 }
 
 #container {
@@ -19,7 +20,7 @@ body {
 }
 
 .row {
-  height: 5rem;
+  height: 3.5rem;
   width: 100%;
   margin-top: 0.75%;
   background-color: #060606;
@@ -27,7 +28,10 @@ body {
 }
 
 .top {
-  height: 50%;
+  height: 100% !important;
+  margin-top: 0% !important;
+  /* background-color: transparent !important; */
+  /* color: silver; */
 }
 
 .box {
