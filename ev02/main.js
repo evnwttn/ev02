@@ -56,15 +56,15 @@ class ev02 {
           const boxText = box.title;
           boxDiv.classList.add("top");
           boxDiv.appendChild(textDiv);
-          textDiv.innerHTML = `${boxText}`;
+          textDiv.innerHTML = `&#8287; ${boxText}`;
         } else if (box.number) {
           const boxText = box.number;
           boxDiv.appendChild(textDiv);
-          textDiv.innerHTML = `${boxText}`;
+          textDiv.innerHTML = `&#8287; ${boxText}`;
         } else if (box.workingTitle) {
           const boxText = box.workingTitle;
           boxDiv.appendChild(textDiv);
-          textDiv.innerHTML = `${boxText}`;
+          textDiv.innerHTML = `&#8287; ${boxText}`;
         }
 
         rowDiv.appendChild(boxDiv);
