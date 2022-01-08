@@ -55,17 +55,17 @@ body {
 /* STATUS */
 
 .null {
-  background-color: #060606;
+  background: transparent;
 }
 
 .pre {
-  background-color: silver;
+  background-color: rgba(107, 107, 107, 0.666);
 }
 
 .in-progress {
-  background-color: red;
+  background-color: rgba(107, 0, 0, 0.666);
 }
 
 .complete {
-  background-color: green;
+  background-color: rgba(0, 107, 0, 0.666);
 }

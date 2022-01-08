@@ -31,7 +31,7 @@ let inputData = [
     { demo: "1" },
     { guitar: "3" },
     { bass: "1" },
-    { drums: "4" },
+    { drums: "1" },
     { synths: "1" },
     { fx: "1" },
     { mix: "1" },
