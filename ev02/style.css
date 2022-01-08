@@ -5,7 +5,10 @@ body {
   font-weight: 900;
   font-size: 0.9rem;
   text-transform: uppercase;
-  /* background-color: #060606; */
+  background-image: linear-gradient(#161616, #060606);
+  margin: 0;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 #container {
@@ -23,7 +26,7 @@ body {
   height: 3.5rem;
   width: 100%;
   margin-top: 0.75%;
-  background-color: #060606;
+  background-color: #161616;
   transform: skew(-6deg);
 }
 
