@@ -46,6 +46,8 @@ class ev02 {
               boxDiv.classList.add("in-progress");
             } else if (box[boxAttribute] === "3") {
               boxDiv.classList.add("complete");
+            } else if (box.workingTitle || box.number) {
+              boxDiv.classList.add("top");
             }
           }
         });
