@@ -2,8 +2,10 @@ import "./style.css";
 import "./input.js";
 
 let about = document.getElementById("about");
+let blurb = document.getElementById("blurb");
 
-about.addEventListener("click", () => console.log("yes"));
+about.addEventListener("click", () => blurb.classList.remove("invisible"));
+blurb.addEventListener("click", () => blurb.classList.add("invisible"));
 
 let container = document.getElementById("container");
 

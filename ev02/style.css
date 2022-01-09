@@ -13,6 +13,10 @@ h1 {
   color: rgba(107, 107, 107);
 }
 
+.invisible {
+  visibility: hidden;
+}
+
 #about {
   color: rgba(107, 107, 107, 0.666);
   position: fixed;
@@ -25,7 +29,6 @@ h1 {
 }
 
 #blurb {
-  visibility: hidden;
   color: rgba(107, 107, 107, 0.666);
   position: absolute;
   text-align: right;
