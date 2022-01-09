@@ -28,6 +28,10 @@ h1 {
   border: 5px solid rgba(107, 107, 107, 0.333);
 }
 
+#about:hover {
+  opacity: 90%;
+}
+
 #blurb {
   color: rgba(107, 107, 107, 0.666);
   position: absolute;
@@ -40,6 +44,10 @@ h1 {
   padding-left: 1.5%;
   padding-bottom: 2%;
   border: 5px solid rgba(107, 107, 107, 0.333);
+}
+
+#blurb:hover {
+  opacity: 90%;
 }
 
 /* BOXES / ROWS */
