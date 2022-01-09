@@ -4,8 +4,13 @@ import "./input.js";
 let about = document.getElementById("about");
 let blurb = document.getElementById("blurb");
 
-about.addEventListener("click", () => blurb.classList.remove("invisible"));
-blurb.addEventListener("click", () => blurb.classList.add("invisible"));
+about.addEventListener("click", () => visibleFlip(about, blurb));
+blurb.addEventListener("click", () => visibleFlip(blurb, about));
+
+function visibleFlip(x, y) {
+  x.classList.add("invisible");
+  y.classList.remove("invisible");
+}
 
 let container = document.getElementById("container");
 
