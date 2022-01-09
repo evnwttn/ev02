@@ -1,6 +1,10 @@
 import "./style.css";
 import "./input.js";
 
+let about = document.getElementById("about");
+
+about.addEventListener("click", () => console.log("yes"));
+
 let container = document.getElementById("container");
 
 class ev02 {
