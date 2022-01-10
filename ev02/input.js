@@ -116,4 +116,17 @@ let inputData = [
     { master: "1" },
     { done: "0" },
   ],
+  [
+    { number: "09" },
+    { workingTitle: "A A N E" },
+    { demo: "2" },
+    { guitar: "0" },
+    { bass: "0" },
+    { drums: "0" },
+    { synths: "2" },
+    { fx: "2" },
+    { mix: "1" },
+    { master: "1" },
+    { done: "0" },
+  ],
 ];
